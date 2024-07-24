@@ -359,7 +359,7 @@ extension EmailAndPasswordViewController {
             print("Unexpected error: Verify Code view controller is nil")
             return
         }
-
+        verifyCodeViewController?.closeSheet()
         verifyCodeViewController = nil
     }
 }

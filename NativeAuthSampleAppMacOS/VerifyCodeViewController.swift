@@ -31,6 +31,10 @@ class VerifyCodeViewController: NSViewController {
     @IBOutlet weak var errorLabel: NSTextField!
     @IBOutlet weak var codeTextField: NSTextField!
 
+    func closeSheet() {
+        dismiss(self)
+    }
+    
     @IBAction func resendPressed(_: Any) {
         onResend?()
     }
