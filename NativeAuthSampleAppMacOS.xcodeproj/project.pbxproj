@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		DE2C52E12C514D4E00E781DA /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VerifyCodeViewController.swift; path = NativeAuthSampleAppMacOS/VerifyCodeViewController.swift; sourceTree = SOURCE_ROOT; };
+		DE7CE2F12C6A3E6B00E6AB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DEB5ADB72C4FB8C4004326FB /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		DEB5ADBC2C4FB925004326FB /* EmailAndPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailAndPasswordViewController.swift; sourceTree = "<group>"; };
 		DEE2C8FB2C47C2980051D3E4 /* NativeAuthSampleAppMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeAuthSampleAppMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +75,7 @@
 		DEE2C8FD2C47C2980051D3E4 /* NativeAuthSampleAppMacOS */ = {
 			isa = PBXGroup;
 			children = (
+				DE7CE2F12C6A3E6B00E6AB1D /* Info.plist */,
 				DEE2C8FE2C47C2980051D3E4 /* AppDelegate.swift */,
 				DEB5ADB72C4FB8C4004326FB /* Configuration.swift */,
 				DEB5ADBB2C4FB8F4004326FB /* Scenario View Controller */,
@@ -311,6 +313,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NativeAuthSampleAppMacOS/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -338,6 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NativeAuthSampleAppMacOS/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
