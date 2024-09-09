@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE2C52E22C514D4E00E781DA /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C52E12C514D4E00E781DA /* VerifyCodeViewController.swift */; };
+		DE504E9F2C8F3B4A00C23562 /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE504E9E2C8F3B4A00C23562 /* VerifyCodeViewController.swift */; };
 		DEB5ADB82C4FB8C4004326FB /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5ADB72C4FB8C4004326FB /* Configuration.swift */; };
 		DEB5ADBD2C4FB925004326FB /* EmailAndPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5ADBC2C4FB925004326FB /* EmailAndPasswordViewController.swift */; };
 		DEB5ADC02C4FBA06004326FB /* MSAL in Frameworks */ = {isa = PBXBuildFile; productRef = DEB5ADBF2C4FBA06004326FB /* MSAL */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE2C52E12C514D4E00E781DA /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VerifyCodeViewController.swift; path = NativeAuthSampleAppMacOS/VerifyCodeViewController.swift; sourceTree = SOURCE_ROOT; };
+		DE504E9E2C8F3B4A00C23562 /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
 		DE7CE2F12C6A3E6B00E6AB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DEB5ADB72C4FB8C4004326FB /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		DEB5ADBC2C4FB925004326FB /* EmailAndPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailAndPasswordViewController.swift; sourceTree = "<group>"; };
@@ -40,12 +40,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE2C52E02C514D4100E781DA /* Modal View Controllers */ = {
+		DE504E9D2C8F3B3300C23562 /* Modal View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DE2C52E12C514D4E00E781DA /* VerifyCodeViewController.swift */,
+				DE504E9E2C8F3B4A00C23562 /* VerifyCodeViewController.swift */,
 			);
-			path = "Modal View Controllers";
+			name = "Modal View Controllers";
 			sourceTree = "<group>";
 		};
 		DEB5ADBB2C4FB8F4004326FB /* Scenario View Controller */ = {
@@ -79,7 +79,7 @@
 				DEE2C8FE2C47C2980051D3E4 /* AppDelegate.swift */,
 				DEB5ADB72C4FB8C4004326FB /* Configuration.swift */,
 				DEB5ADBB2C4FB8F4004326FB /* Scenario View Controller */,
-				DE2C52E02C514D4100E781DA /* Modal View Controllers */,
+				DE504E9D2C8F3B3300C23562 /* Modal View Controllers */,
 				DEE2C9022C47C2990051D3E4 /* Assets.xcassets */,
 				DEE2C9042C47C2990051D3E4 /* Main.storyboard */,
 				DEE2C9072C47C2990051D3E4 /* NativeAuthSampleAppMacOS.entitlements */,
@@ -163,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2C52E22C514D4E00E781DA /* VerifyCodeViewController.swift in Sources */,
+				DE504E9F2C8F3B4A00C23562 /* VerifyCodeViewController.swift in Sources */,
 				DEB5ADBD2C4FB925004326FB /* EmailAndPasswordViewController.swift in Sources */,
 				DEB5ADB82C4FB8C4004326FB /* Configuration.swift in Sources */,
 				DEE2C8FF2C47C2980051D3E4 /* AppDelegate.swift in Sources */,
