@@ -33,39 +33,39 @@ To enable your application to authenticate users with Microsoft Entra, Microsoft
 
 ### Step 1: Register an application
 
-Register your app in the Microsoft Entra admin center using the steps in [Register an application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-ios-app#register-an-application).
+Register your app in the Microsoft Entra admin center using the steps in [Register an application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#register-an-application).
 
 ### Step 2: Enable public client and native authentication flows
 
-Enable public client and native authentication flows for the registered application using the steps in [Enable public client and native authentication flows](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-ios-app#enable-public-client-and-native-authentication-flows).
+Enable public client and native authentication flows for the registered application using the steps in [Enable public client and native authentication flows](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#enable-public-client-and-native-authentication-flows).
 
 ### Step 3: Grant API permissions
 
-Grant API permissions to the registered application by following the steps in [Grant API permissions](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-ios-app#grant-api-permissions).
+Grant API permissions to the registered application by following the steps in [Grant API permissions](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#grant-api-permissions).
 
 ### Step 4: Create user flow
 
-Create a Email with password user flow by following the steps in [Create a user flow](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-ios-app#create-a-user-flow).
+Create a Email with password user flow by following the steps in [Create a user flow](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#create-a-user-flow).
 
 ### Step 5: Associate the app with the user flow
 
-Associate the application with the user flow by following the steps in [Associate the application with the user flow](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-ios-app#associate-the-application-with-the-user-flow).
+Associate the application with the user flow by following the steps in [Associate the application with the user flow](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#associate-the-application-with-the-user-flow).
 
 ### Step 6: Clone sample macOS desktop application
 
-Clone the sample macOS desktop application by following the steps outlined in [Clone sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-ios-app#clone-sample-ios-mobile-application).
+Clone the sample macOS desktop application by following the steps outlined in [Clone sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#clone-sample-macos-mobile-application).
 
 ### Step 7: Configure the sample macOS desktop application
 
-Configure the sample macOS desktop application by following the steps in [Configure the sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-ios-app#configure-the-sample-ios-mobile-application).
+Configure the sample macOS desktop application by following the steps in [Configure the sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#configure-the-sample-macos-desktop-application).
 
 ### Step 8: Run and test sample macOS desktop application
 
-Run and test the macOS desktop mobile application by following the steps in [Run and test sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-ios-app#run-and-test-sample-ios-mobile-application).
+Run and test the macOS desktop mobile application by following the steps in [Run and test sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#run-and-test-sample-macos-mobile-application).
 
 ## Key concepts
 
-Open `NativeAuthSampleApp/Configuration.swift` file and you find the following lines of code:
+Open `NativeAuthSampleAppMacOS/Configuration.swift` file and you find the following lines of code:
 
 ```swift
 import MSAL
@@ -84,7 +84,7 @@ The code creates two constant properties:
 * _clientId_ - the value _Enter_the_Application_Id_Here_ is replaced with **Application (client) ID** of the app you register during the project setup. The **Application (client) ID** is unique identifier of your registered application.
 * _tenantSubdomain_ - the value _Enter_the_Tenant_Subdomain_Here_ is replaced with the Directory (tenant) subdomain. The tenant subdomain URL is used to construct the authentication endpoint for your app.
 
-You use `NativeAuthSampleApp/Configuration.swift` file to set configuration options when you initialize the client app in the Microsoft Authentication Library (MSAL).
+You use `NativeAuthSampleAppMacOS/Configuration.swift` file to set configuration options when you initialize the client app in the Microsoft Authentication Library (MSAL).
 
 To create SDK instance, use the following code:
 
@@ -105,7 +105,7 @@ do {
 }
 ```
 
-You create MSAL instance so that you can perform authentication logic and interact with your tenant through native authentication APIs. The `MSALNativeAuthPublicClientApplication` creates an instance called `nativeAuth`. The `clientId` and `tenantSubdomain`, defined in the configuration file `NativeAuthSampleApp/Configuration.swift` file, are passed as parameters. For more information about SDK instance, see [Tutorial: Prepare your macOS app for native authentication](https://learn.microsoft.com/en-gb/entra/external-id/customers/tutorial-native-authentication-prepare-ios-app#create-sdk-instance)
+You create MSAL instance so that you can perform authentication logic and interact with your tenant through native authentication APIs. The `MSALNativeAuthPublicClientApplication` creates an instance called `nativeAuth`. The `clientId` and `tenantSubdomain`, defined in the configuration file `NativeAuthSampleAppMacOS/Configuration.swift` file, are passed as parameters. For more information about SDK instance, see [Tutorial: Prepare your macOS app for native authentication](https://learn.microsoft.com/en-gb/entra/external-id/customers/tutorial-native-authentication-prepare-ios-macos-app#create-sdk-instance)
 
 ## Reporting problems
 
