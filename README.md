@@ -61,7 +61,7 @@ Configure the sample macOS desktop application by following the steps in [Config
 
 ### Step 8: Run and test sample macOS desktop application
 
-Run and test the macOS desktop mobile application by following the steps in [Run and test sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#run-and-test-sample-macos-application).
+Run and test the macOS desktop application by following the steps in [Run and test sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#run-and-test-sample-macos-application).
 
 ## Key concepts
 
