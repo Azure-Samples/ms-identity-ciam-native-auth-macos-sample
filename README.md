@@ -53,15 +53,15 @@ Associate the application with the user flow by following the steps in [Associat
 
 ### Step 6: Clone sample macOS desktop application
 
-Clone the sample macOS desktop application by following the steps outlined in [Clone sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#clone-sample-macos-mobile-application).
+Clone the sample macOS desktop application by following the steps outlined in [Clone sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#clone-sample-macos-application).
 
 ### Step 7: Configure the sample macOS desktop application
 
-Configure the sample macOS desktop application by following the steps in [Configure the sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#configure-the-sample-macos-desktop-application).
+Configure the sample macOS desktop application by following the steps in [Configure the sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#configure-the-sample-macos-application).
 
 ### Step 8: Run and test sample macOS desktop application
 
-Run and test the macOS desktop mobile application by following the steps in [Run and test sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#run-and-test-sample-macos-mobile-application).
+Run and test the macOS desktop mobile application by following the steps in [Run and test sample macOS desktop application](https://learn.microsoft.com/entra/external-id/customers/how-to-run-native-authentication-sample-macos-app#run-and-test-sample-macos-application).
 
 ## Key concepts
 
