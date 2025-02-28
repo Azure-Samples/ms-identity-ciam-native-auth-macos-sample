@@ -68,8 +68,9 @@ class EmailAndPasswordViewController: NSViewController {
         print("Signing up with email \(email) and password")
 
         showResultText("Signing up...")
-
-        nativeAuth.signUp(username: email, password: password, delegate: self)
+        let parameters = MSALNativeAuthSignUpParameters(username: email)
+        parameters.password = password
+        nativeAuth.signUp(parameters: parameters, delegate: self)
     }
 
     @IBAction func signInPressed(_: Any) {
@@ -84,7 +85,9 @@ class EmailAndPasswordViewController: NSViewController {
 
         showResultText("Signing in...")
 
-        nativeAuth.signIn(username: email, password: password, delegate: self)
+        let parameters = MSALNativeAuthSignInParameters(username: email)
+        parameters.password = password
+        nativeAuth.signIn(parameters: parameters, delegate: self)
     }
 
     @IBAction func signOutPressed(_: Any) {
@@ -117,8 +120,8 @@ class EmailAndPasswordViewController: NSViewController {
         accountResult = nativeAuth.getNativeAuthUserAccount()
         if let accountResult = accountResult, let homeAccountId = accountResult.account.homeAccountId?.identifier {
             print("Account found in cache: \(homeAccountId)")
-
-            accountResult.getAccessToken(delegate: self)
+            let parameters = MSALNativeAuthGetAccessTokenParameters()
+            accountResult.getAccessToken(parameters: parameters, delegate: self)
         } else {
             print("No account found in cache")
 
@@ -207,7 +210,8 @@ extension EmailAndPasswordViewController: SignUpVerifyCodeDelegate {
         showResultText("Signed up successfully!")
         dismissVerifyCodeModal()
 
-        newState.signIn(delegate: self)
+        let parameters = MSALNativeAuthSignInAfterSignUpParameters()
+        newState.signIn(parameters: parameters, delegate: self)
     }
 }
 
@@ -262,7 +266,8 @@ extension EmailAndPasswordViewController: SignInStartDelegate {
 
         accountResult = result
 
-        result.getAccessToken(delegate: self)
+        let parameters = MSALNativeAuthGetAccessTokenParameters()
+        accountResult?.getAccessToken(parameters: parameters, delegate: self)
     }
 
     func onSignInStartError(error: MSAL.SignInStartError) {
