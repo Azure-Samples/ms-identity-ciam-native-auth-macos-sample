@@ -99,7 +99,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEDBDCE42CAFEEA000A68D2C /* PBXTargetDependency */,
 			);
 			name = NativeAuthSampleAppMacOS;
 			packageProductDependencies = (
@@ -133,7 +132,7 @@
 			);
 			mainGroup = DEE2C8F22C47C2980051D3E4;
 			packageReferences = (
-				DEE13DDA2CAFED54007BF4BC /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */,
+				285AFC1D2D7205BA007A99F8 /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */,
 			);
 			productRefGroup = DEE2C8FC2C47C2980051D3E4 /* Products */;
 			projectDirPath = "";
@@ -169,13 +168,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DEDBDCE42CAFEEA000A68D2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = DEDBDCE32CAFEEA000A68D2C /* MSAL */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DEE2C9042C47C2990051D3E4 /* Main.storyboard */ = {
@@ -387,7 +379,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DEE13DDA2CAFED54007BF4BC /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */ = {
+		285AFC1D2D7205BA007A99F8 /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AzureAD/microsoft-authentication-library-for-objc";
 			requirement = {
@@ -396,14 +388,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		DEDBDCE32CAFEEA000A68D2C /* MSAL */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEE13DDA2CAFED54007BF4BC /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */;
-			productName = MSAL;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEE2C8F32C47C2980051D3E4 /* Project object */;
 }
